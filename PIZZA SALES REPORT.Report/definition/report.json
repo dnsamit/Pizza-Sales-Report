@@ -1,0 +1,119 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY26SU07",
+      "reportVersionAtImport": {
+        "visual": "2.11.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY26SU07",
+          "path": "BaseThemes/CY26SU07.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "delivery-man9677502931676862.png",
+          "path": "delivery-man9677502931676862.png",
+          "type": "Image"
+        },
+        {
+          "name": "down-arrow14115258687182797.png",
+          "path": "down-arrow14115258687182797.png",
+          "type": "Image"
+        },
+        {
+          "name": "down-arrow4813416247952642.png",
+          "path": "down-arrow4813416247952642.png",
+          "type": "Image"
+        },
+        {
+          "name": "home3037582981680724.png",
+          "path": "home3037582981680724.png",
+          "type": "Image"
+        },
+        {
+          "name": "order-delivery47276822893532.png",
+          "path": "order-delivery47276822893532.png",
+          "type": "Image"
+        },
+        {
+          "name": "pizza-slice5308033889658889.png",
+          "path": "pizza-slice5308033889658889.png",
+          "type": "Image"
+        },
+        {
+          "name": "pizza-slice7671356037322283.png",
+          "path": "pizza-slice7671356037322283.png",
+          "type": "Image"
+        },
+        {
+          "name": "profit-growth7128059620608842.png",
+          "path": "profit-growth7128059620608842.png",
+          "type": "Image"
+        },
+        {
+          "name": "star0798423697288484.png",
+          "path": "star0798423697288484.png",
+          "type": "Image"
+        },
+        {
+          "name": "test591499742148072.png",
+          "path": "test591499742148072.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

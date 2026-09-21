@@ -1,0 +1,22 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["pizza_sales"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table pizza_sales
+ref table DateTableTemplate_eb7b3f3c-5d77-46ed-83b0-2f214d2ab80f
+ref table LocalDateTable_3c55f853-75fb-4b8f-b2ca-7e59d06758e5
+ref table LocalDateTable_77e30520-1074-46f6-afb2-98fc1d5a88a5
+
+ref cultureInfo en-US
+

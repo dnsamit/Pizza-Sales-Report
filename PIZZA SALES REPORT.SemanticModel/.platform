@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "PIZZA SALES REPORT"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4be3d97f-70b9-4844-b1fc-3a17bdee3f87"
+  }
+}
