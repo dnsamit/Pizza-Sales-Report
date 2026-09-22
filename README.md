@@ -701,18 +701,6 @@ The following project documentation is included in the repository:
 
 ---
 
-## Author
-
-<div align="center">
-
-### DN.S Amit
-
-Power BI | SQL | Data Analytics | Business Intelligence
-
-</div>
-
----
-
 <div align="center">
 
 ### Pizza Sales Report
